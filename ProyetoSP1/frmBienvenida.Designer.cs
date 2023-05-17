@@ -1,6 +1,6 @@
 ﻿namespace ProyetoSP1
 {
-    partial class Form1
+    partial class frmBienvenida
     {
         /// <summary>
         /// Variable del diseñador necesaria.
