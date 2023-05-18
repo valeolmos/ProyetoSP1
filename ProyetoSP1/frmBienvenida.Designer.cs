@@ -28,13 +28,51 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lblBienvenido = new System.Windows.Forms.Label();
+            this.cmdBienvenido = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // lblBienvenido
+            // 
+            this.lblBienvenido.AutoSize = true;
+            this.lblBienvenido.Font = new System.Drawing.Font("Modern No. 20", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBienvenido.Location = new System.Drawing.Point(92, 103);
+            this.lblBienvenido.Name = "lblBienvenido";
+            this.lblBienvenido.Size = new System.Drawing.Size(278, 29);
+            this.lblBienvenido.TabIndex = 0;
+            this.lblBienvenido.Text = "Bienvenido al sistema";
+            // 
+            // cmdBienvenido
+            // 
+            this.cmdBienvenido.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.cmdBienvenido.Location = new System.Drawing.Point(190, 135);
+            this.cmdBienvenido.Name = "cmdBienvenido";
+            this.cmdBienvenido.Size = new System.Drawing.Size(75, 23);
+            this.cmdBienvenido.TabIndex = 1;
+            this.cmdBienvenido.Text = "Bienvenido";
+            this.cmdBienvenido.UseVisualStyleBackColor = false;
+            this.cmdBienvenido.Click += new System.EventHandler(this.cmdBienvenido_Click);
+            // 
+            // frmBienvenida
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.ClientSize = new System.Drawing.Size(459, 255);
+            this.Controls.Add(this.cmdBienvenido);
+            this.Controls.Add(this.lblBienvenido);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Name = "frmBienvenida";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblBienvenido;
+        private System.Windows.Forms.Button cmdBienvenido;
     }
 }
 

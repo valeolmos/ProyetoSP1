@@ -12,9 +12,16 @@ namespace ProyetoSP1
 {
     public partial class frmBienvenida : Form
     {
+        frmInicio inicio = new frmInicio();
         public frmBienvenida()
         {
             InitializeComponent();
+        }
+
+        private void cmdBienvenido_Click(object sender, EventArgs e)
+        {
+            inicio.Show();
+            this.Hide();
         }
     }
 }
