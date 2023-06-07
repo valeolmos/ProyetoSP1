@@ -129,6 +129,7 @@
             this.Controls.Add(this.lblUsuario);
             this.Name = "frmInicio";
             this.Text = "frmInicio";
+            this.Load += new System.EventHandler(this.frmInicio_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

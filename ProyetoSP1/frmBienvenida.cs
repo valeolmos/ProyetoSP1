@@ -17,11 +17,5 @@ namespace ProyetoSP1
         {
             InitializeComponent();
         }
-
-        private void cmdBienvenido_Click(object sender, EventArgs e)
-        {
-            inicio.Show();
-            this.Hide();
-        }
     }
 }

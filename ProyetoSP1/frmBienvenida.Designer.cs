@@ -64,6 +64,7 @@
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "frmBienvenida";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmBienvenida_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -9,14 +9,14 @@ namespace ProyetoSP1
     internal static class Program
     {
         /// <summary>
-        /// Punto de entrada principal para la aplicación.
+        /// Punto de entrada principal para la aplicaciÃ³n.
         /// </summary>
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmBienvenida());
+            Application.Run(new frmInicio());
         }
     }
 }
